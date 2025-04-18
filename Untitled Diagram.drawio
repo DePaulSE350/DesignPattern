@@ -85,7 +85,7 @@
         <mxCell id="4WmSHUMRDspCkq09ne6b-9" value="Driver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="490" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4WmSHUMRDspCkq09ne6b-10" value="+ drive(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4WmSHUMRDspCkq09ne6b-9">
+        <mxCell id="4WmSHUMRDspCkq09ne6b-10" value="+ drive(a: Car): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4WmSHUMRDspCkq09ne6b-9">
           <mxGeometry y="26" width="210" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4WmSHUMRDspCkq09ne6b-14" value="CarWash" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -108,6 +108,18 @@
         </mxCell>
         <mxCell id="4WmSHUMRDspCkq09ne6b-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WmSHUMRDspCkq09ne6b-10" target="4WmSHUMRDspCkq09ne6b-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WmSHUMRDspCkq09ne6b-26" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="710" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4WmSHUMRDspCkq09ne6b-27" value="- name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4WmSHUMRDspCkq09ne6b-26">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4WmSHUMRDspCkq09ne6b-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4WmSHUMRDspCkq09ne6b-26">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4WmSHUMRDspCkq09ne6b-29" value="+ getName()&lt;div&gt;+ printTimesheetReport()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4WmSHUMRDspCkq09ne6b-26">
+          <mxGeometry y="60" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
