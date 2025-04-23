@@ -387,8 +387,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tLCJhqGApTJ3eNBh1u3I" name="Strategy Pattern">
-    <mxGraphModel dx="2518" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="tLCJhqGApTJ3eNBh1u3I" name="Strategy/State/Bridge">
+    <mxGraphModel dx="2268" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -614,12 +614,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Sdc7ry6VQt1jelCJk-xW-70" value="context.setState(new ConcreteState2())" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="1082" width="245" height="30" as="geometry" />
+          <mxGeometry x="31" y="1132" width="245" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Sdc7ry6VQt1jelCJk-xW-71" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.793;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sdc7ry6VQt1jelCJk-xW-70" target="Sdc7ry6VQt1jelCJk-xW-50">
+        <mxCell id="Sdc7ry6VQt1jelCJk-xW-71" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Sdc7ry6VQt1jelCJk-xW-70">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-70" y="896" as="sourcePoint" />
-            <mxPoint x="-31" y="895" as="targetPoint" />
+            <mxPoint x="180" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="153" y="1100" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Sdc7ry6VQt1jelCJk-xW-72" value="this.currentState = otherState" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;" vertex="1" parent="1">
@@ -650,12 +653,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Sdc7ry6VQt1jelCJk-xW-80" value="context.setState(new ConcreteState1())" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1082" width="245" height="30" as="geometry" />
+          <mxGeometry x="498" y="1132" width="245" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Sdc7ry6VQt1jelCJk-xW-81" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="Sdc7ry6VQt1jelCJk-xW-80">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="1100" as="sourcePoint" />
             <mxPoint x="188" y="1109" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="1100" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
